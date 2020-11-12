@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <lia charset = "utf-8"/>
+    <title>Cuaca Hari Ini</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+
+</head>
+<body>
+    <!-- nav bar -->
+        <nav class="navbar navbar-dark bg-dark">
+                <a class="navbar-brand" href="#">
+                Prakiraan Cuaca Indonesia Hari Ini
+                </a>
+        </nav>
+            <div class="container">
+                    <h2 class="text-center">Cuaca Indonesia Hari Ini</h2>
+                <div class="input-group mb-3 justify-content-center">
+                    <input type="text" class="form-control" placeholder="Cari Cuaca di Kota mu" aria-label="Recipient's username" aria-describedby="button-addon2" id="search-input">
+                        <div class="input-group-append">
+                            <button class="btn btn-primary" type="button" id="search-cuaca">Search</button>
+                        </div>
+                </div>
+            </div>
+            <div class="row" id="list-cuaca">
+            </div>
+</body>
+<script src="https://code.jquery.com/jquery-3.3.1.min.js" ></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" ></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" ></script>
+<script src="js/script.js"></script>
+</html>
